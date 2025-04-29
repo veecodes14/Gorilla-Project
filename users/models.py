@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 from datetime import date
-from PIL import Image
 
 class Waitlist(models.Model):
     name = models.CharField(max_length= 200)
